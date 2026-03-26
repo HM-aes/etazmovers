@@ -85,12 +85,16 @@ export default function Hero() {
             Etaz Movers is uw betrouwbare partner voor particuliere en zakelijke verhuizingen. Snel, veilig en professioneel.
           </motion.p>
           <motion.div variants={item} className="flex flex-col sm:flex-row gap-4 justify-center">
-            <MagneticButton className="bg-amber-500 text-zinc-950 px-8 py-4 text-lg">
-              Vraag Offerte Aan
-            </MagneticButton>
-            <MagneticButton className="bg-transparent border border-zinc-300 dark:border-zinc-500 text-zinc-900 dark:text-white px-8 py-4 text-lg hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors">
-              Onze Diensten
-            </MagneticButton>
+            <a href="/#contact">
+              <MagneticButton className="bg-amber-500 text-zinc-950 px-8 py-4 text-lg">
+                Vraag Offerte Aan
+              </MagneticButton>
+            </a>
+            <a href="/diensten">
+              <MagneticButton className="bg-transparent border border-zinc-300 dark:border-zinc-500 text-zinc-900 dark:text-white px-8 py-4 text-lg hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors">
+                Onze Diensten
+              </MagneticButton>
+            </a>
           </motion.div>
         </motion.div>
       </div>

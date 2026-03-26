@@ -71,11 +71,11 @@ export default function Navbar() {
           </a>
           
           {/* Kinetic Button */}
-          <button className="bg-amber-500 text-zinc-950 px-6 py-3 font-black text-xs uppercase tracking-widest hover:bg-white hover:pl-8 hover:pr-4 transition-all duration-300 shadow-[0_10px_30px_rgba(245,158,11,0.2)] flex items-center gap-2"
+          <a href="/#contact" className="bg-amber-500 text-zinc-950 px-6 py-3 font-black text-xs uppercase tracking-widest hover:bg-white hover:pl-8 hover:pr-4 transition-all duration-300 shadow-[0_10px_30px_rgba(245,158,11,0.2)] flex items-center gap-2"
             style={{ clipPath: 'polygon(0 0, 100% 0, 95% 100%, 0% 100%)' }}>
             <span>Offerte Aanvragen</span>
             <span className="w-4 h-[2px] bg-zinc-950 inline-block"></span>
-          </button>
+          </a>
         </div>
 
       </div>

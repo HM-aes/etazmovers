@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 
 const steps = [
-  { num: '01', title: 'Aanvraag', desc: 'Vul het formulier in of bel ons voor een vrijblijvende offerte.' },
+  { num: '01', title: 'Aanvraag', desc: 'Stuur ons een WhatsApp bericht of bel ons voor een vrijblijvende offerte.' },
   { num: '02', title: 'Planning', desc: 'Samen bespreken we de details en plannen we de verhuisdatum.' },
   { num: '03', title: 'Uitvoering', desc: 'Onze professionals voeren de verhuizing efficiënt en veilig uit.' },
   { num: '04', title: 'Oplevering', desc: 'We controleren alles samen met u voor 100% tevredenheid.' },

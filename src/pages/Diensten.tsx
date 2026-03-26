@@ -140,10 +140,10 @@ export default function Diensten() {
                     {service.description}
                   </p>
 
-                  <div className="inline-flex items-center gap-3 text-amber-500 font-bold uppercase tracking-widest text-sm opacity-80 group-hover:opacity-100 transition-opacity">
+                  <a href="/#contact" className="inline-flex items-center gap-3 text-amber-500 font-bold uppercase tracking-widest text-sm opacity-80 group-hover:opacity-100 transition-opacity">
                     Vraag offerte aan
                     <ArrowRight className="w-5 h-5 transform group-hover:translate-x-2 transition-transform duration-300" />
-                  </div>
+                  </a>
                 </div>
               </div>
             ))}
