@@ -1,0 +1,5 @@
+{
+  "name": "Etaz Movers AI",
+  "description": "AI-era website for Etaz Movers featuring cinematic animations, Veo video generation, Google Maps integration, and Firebase backend.",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"]
+}
